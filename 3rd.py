@@ -9,9 +9,8 @@ def hello():
 def prince():
     name = "Harsh_Sahu"
     return render_template("2.html" , name2 = name)
-app.run(debug=True)
 
-@app.route("/bootstrap")
+@app.route("/boot")
 def boot():
-    return render_template("boot.html" )
+    return render_template("index.html")
 app.run(debug=True)
