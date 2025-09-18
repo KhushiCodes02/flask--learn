@@ -13,4 +13,8 @@ def prince():
 @app.route("/boot")
 def boot():
     return render_template("index.html")
+
+@app.route("/bootstrap")
+def bootstrap():
+    return render_template("boot.html")
 app.run(debug=True)
